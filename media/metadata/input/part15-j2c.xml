@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x61" size="73">
+    <tuple tag="MXFD" type="E" size="284" padding="0">
+      <tuple tag="MXFd" type="B" size="91" count="3" padding="3">Bg4rNAJTAQENAQEBAQEpAAAAAPkAAAAAPAoAEGoXKkYMwE1XnufnhJvQ8Sz//wAYAAAAAQAAABCp6N+ArQ9GSoneTKAXkjGqMAYABAAAAAIwAQAIAAAAGAAAAAEwAgAIAAAAAAAAAAEwBAAQBg4rNAQBAQ0NAQMBAgwGADIMAAEAMgMABAAADwAyAgAEAAAIcDIOAAgAAA8AAAAIcDIQABAGDis0BAEBDQQBAQEBEwAAMgEAEAYOKzQEAQENBAECAgMBCAH//gAQBg4rNAQBAQ0EAQEBAwgAADINABAAAAACAAAABAAAAAAAAAAANAYABAAAD/80BwAEAAAAADQBABDYDNkM2gwAAAAAAAAAAAAA</tuple>
+    </tuple>
+  </chunk>
+</metadata>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+    <chunk tag="0x61" size="1104">
+        <tuple tag="ALEM" type="E" size="4408" padding="0">
+            <tuple tag="ALEd" type="c" size="4223" padding="1">Heading
+FIELD_DELIM	TABS
+VIDEO_FORMAT	1080
+AUDIO_FORMAT	48kHz
+FPS	29.97
+
+Column
+Name	Filepath	Tape	Start	End	Duration	Daily Roll	Labroll	Camroll	TC 24	Tracks	Soundroll	Sound TC	Scene	Take	DESCRIPT	Comments	Notes	Circled	ASC_SOP	ASC_SAT	Lut	Lut1	Lut2	ImageFileName	AudioFileName
+
+Data
+
+GOPR0095.MP4.Subclip001	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:28:34:28	14:29:59:25	00:01:24:27				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip002	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:29:59:24	14:31:14:27	00:01:15:03				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip003	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:31:14:26	14:32:27:02	00:01:12:06				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip004	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:32:27:01	14:33:36:28	00:01:09:27				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip005	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:33:36:27	14:34:53:22	00:01:16:25				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip006	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:34:53:21	14:36:09:28	00:01:16:07				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip007	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:34:53:21	14:36:09:28	00:01:16:07				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip008	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:36:09:27	14:37:28:14	00:01:18:17				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip009	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:37:28:13	14:38:40:19	00:01:12:06				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0095.MP4.Subclip010	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0095.MP4	Unknown Tape	14:38:40:18	14:39:59:21	00:01:19:03				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip001	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:34:42:10	17:36:15:10	00:01:33:00				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip002	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:38:07:17	17:39:52:13	00:01:44:26				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip003	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:41:24:06	17:42:46:24	00:01:22:18				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip004	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:42:46:23	17:44:14:17	00:01:27:24				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip005	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:44:14:16	17:45:22:21	00:01:08:05				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip006	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:36:15:09	17:38:01:00	00:01:45:21				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip007	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:39:52:12	17:41:24:07	00:01:31:25				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip008	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:45:22:20	17:46:42:10	00:01:19:20				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip009	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:45:22:20	17:46:42:10	00:01:19:20				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip010	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:39:52:12	17:41:24:07	00:01:31:25				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip011	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:36:15:09	17:38:01:00	00:01:45:21				TEMP TC24	VA1		00:00:00:00						N								
+GOPR0097.MP4.Subclip012	/Users/brian/Projects/SMPTE/VC-5/ALE Test Cases/GOPR0097.MP4	Unknown Tape	17:44:14:16	17:45:22:21	00:01:08:05				TEMP TC24	VA1		00:00:00:00						N								
+</tuple>
+
+            <tuple tag="PATH" type="c" size="86" value="https://github.com/SMPTE/smpte-10e-vc5/tree/master/metadata/media/ale/aletest-seq1.ale" padding="2" />
+            <tuple tag="FCDT" type="c" size="32" value="2020-09-12T22:07:57.804615+00:00" padding="0" />
+            <tuple tag="FMDT" type="c" size="32" value="2020-09-12T21:58:55.523767+00:00" padding="0" /></tuple>
+</chunk>
+</metadata>

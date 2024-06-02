@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+    <chunk tag="0x61" size="91">
+        <tuple tag="DMCT" type="E" size="356" padding="0">
+            <tuple tag="CVTS" type="U" size="16" count="1" value="060E2B34025301010D01010101017501" padding="0" />
+            <tuple tag="CVTD" type="B" size="162" count="2" value="NgEAAQE2AgABADYDAAEANgQABAAAAAA2BQAEAAAAETYGAAwAAAACAAAAAgAAAAA2BwAMAAAAAgAAAAIHfwQ3NggAAQA2CQA4AAAABgAAAAgAABqQAAAnEAAADIAAACcQAAAKWgAAJxAAABr0AAAnEAAABdwAACcQAAACWAAAJxA2CgAYAAAAAgAAAAgAAAw3AAAnEAAADNoAACcQNgsACAABhqAAAABkNgwACAAAADIAACcQNg0ACAAAGGoAAYagNg4ACAAA430AAYagNg8ACAABKDYAAYagNhAACAAAAAAAAYagNhEACAAAAAAAAYagNhIACAAAAAAAAYagNhMACAAAAAAAAYagNhQACAAAKjAAACcQNhUACAAAA+gAAAPoNhYACAAAB9AAACcQNhcACAAAB9AAACcQNhgACAAAAPoAAAPo" padding="0" /></tuple>
+</chunk>
+</metadata>

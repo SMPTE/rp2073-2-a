@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+    <chunk tag="0x61" size="33">
+        <tuple tag="DARK" type="E" size="124" padding="0">
+            <tuple tag="VENI" type="G" size="16" count="1" value="860e053eaa544fc396dea0219db0f546" padding="0" />
+            <tuple tag="VENS" type="c" size="42" value="Dark metadata test case: dark-metadata.b64" padding="2" />
+            <tuple tag="VEND" type="B" size="40" count="1" value="dmVuZG9yOnh5eixjYW1lcmE6c3BvcnRzY2FtLGlkOjEyMzQ1Njc4OQ==" padding="0" /></tuple>
+</chunk>
+</metadata>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x61" size="156">
+    <tuple tag="ACES" type="E" size="616" padding="0">
+      <tuple tag="ACEh" type="B" size="212" count="2" padding="0">YWNlc0ltYWdlQ29udGFpbmVyRmxhZwBpbnQABAAAAAEAAABjaGFubmVscwBjaGxpc3QASQAAAEEAAQAAAAAAAAABAAAAAQAAAEIAAQAAAAAAAAABAAAAAQAAAEcAAQAAAAAAAAABAAAAAQAAAFIAAQAAAAAAAAABAAAAAQAAAABjaHJvbWF0aWNpdGllcwBjaHJvbWF0aWNpdGllcwAgAAAATRU8P2fVhz4AAAAAAACAPxe30Tgtsp29PrOkPhXjrD5jb21wcmVzc2lvbgBjb21wcmVzc2lvbgABAAAAAGRhdGFXaW5kb3cAYm94MmkAEAAAAAAAAAAAAAAAfwcAADcEAABkaXNwbGF5V2luZG93AGJveDJpABAAAAAAAAAAAAAAAH8HAAA3BAAAbGluZU9yZGVyAGxpbmVPcmRlcgABAAAAAHBpeGVsQXNwZWN0UmF0aW8AZmxvYXQABAAAAAAAgD9zY3JlZW5XaW5kb3dDZW50ZXIAdjJmAAgAAAAAAAAAAAAAAHNjcmVlbldpbmRvd1dpZHRoAGZsb2F0AAQAAAAAAIA/AA==</tuple>
+      <tuple tag="PATH" type="c" size="95" value="https://www.dropbox.com/sh/9xcfbespknayuft/AACYLWs5QGYGTym07gtGYaOLa/ACES/SonyF35.StillLife.exr" padding="1"/>
+      <tuple tag="FCDT" type="c" size="32" value="2020-06-16T18:32:36.463557+00:00" padding="0"/>
+      <tuple tag="FMDT" type="c" size="32" value="2020-06-16T18:32:32.152894+00:00" padding="0"/>
+    </tuple>
+  </chunk>
+</metadata>
