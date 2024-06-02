@@ -1,0 +1,3 @@
+# Ignore the files created for testing multiclass metadata
+json/
+xml/

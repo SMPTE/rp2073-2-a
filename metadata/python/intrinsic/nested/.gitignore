@@ -1,0 +1,15 @@
+# Ignore the intermediate files and test cases created for testing
+json/
+xml/
+
+# Ignore the JSON and XML files created for testing encoding curve metadata
+encoding.json
+encoding-*.json
+encoding-*.xml
+
+# Ignore the JSON and XML files created for testing layers metadata
+layers-*.json
+layers-*.xml
+
+# Ignore backup copies of test cases
+*.bak/

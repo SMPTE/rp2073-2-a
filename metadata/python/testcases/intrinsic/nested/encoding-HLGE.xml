@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x4010" size="4">
+    <tuple tag="CFHD" type="E" size="8" padding="0">
+      <tuple tag="HLGE" type="P" size="0" padding="0"/>
+    </tuple>
+  </chunk>
+</metadata>

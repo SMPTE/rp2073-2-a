@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x4010" size="125">
+    <tuple tag="CFHD" type="E" size="492" padding="0">
+      <tuple tag="ROWI" type="S" size="2" count="1" value="36" padding="2"/>
+      <tuple tag="COLI" type="S" size="2" count="1" value="64" padding="2"/>
+      <tuple tag="NCOL" type="S" size="2" count="1" value="2048" padding="2"/>
+      <tuple tag="NROW" type="S" size="2" count="1" value="1152" padding="2"/>
+      <tuple tag="PFMT" type="B" size="16" count="1" value="UhBHEEcQQhAAAAAAAAAAAA==" padding="0"/>
+      <tuple tag="ALPH" type="L" size="4" count="1" value="65535" padding="0"/>
+      <tuple tag="ALPM" type="B" size="1" count="1" value="0" padding="3"/>
+      <tuple tag="CFAP" type="c" size="4" value="RGGB" padding="0"/>
+      <tuple tag="CLSY" type="B" size="1" count="1" value="6" padding="3"/>
+      <tuple tag="CMIN" type="L" size="4" count="1" value="0" padding="0"/>
+      <tuple tag="CMAX" type="L" size="4" count="1" value="65535" padding="0"/>
+      <tuple tag="AMIN" type="L" size="4" count="1" value="0" padding="0"/>
+      <tuple tag="AMAX" type="L" size="4" count="1" value="65535" padding="0"/>
+      <tuple tag="BLKR" type="L" size="4" count="1" value="0" padding="0"/>
+      <tuple tag="WHTR" type="L" size="4" count="1" value="65535" padding="0"/>
+      <tuple tag="COLR" type="L" size="4" count="1" value="65535" padding="0"/>
+      <tuple tag="CDCS" type="B" size="1" count="1" value="0" padding="3"/>
+      <tuple tag="RATE" type="J" size="8" count="1" value="30000" padding="0"/>
+      <tuple tag="SCAL" type="J" size="8" count="1" value="1001" padding="0"/>
+      <tuple tag="FRMN" type="L" size="4" count="1" value="100" padding="0"/>
+      <tuple tag="TIMB" type="L" size="4" count="1" value="30" padding="0"/>
+      <tuple tag="TIMD" type="B" size="1" count="1" value="0" padding="3"/>
+      <tuple tag="TIMS" type="c" size="11" value="01:00:00:00" padding="1"/>
+      <tuple tag="FRMZ" type="L" size="4" count="1" value="100" padding="0"/>
+      <tuple tag="ICCP" type="B" size="16" count="1" value="QTFCMkMzRDRFNUY2RzdIOA==" padding="0"/>
+      <tuple tag="PQEC" type="P" size="0" padding="0"/>
+      <tuple tag="LAYR" type="0" size="40" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="0" padding="2"/>
+        <tuple tag="LAYD" type="c" size="19" value="Exposure time: 1/60" padding="1"/>
+      </tuple>
+      <tuple tag="LAYR" type="0" size="40" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="1" padding="2"/>
+        <tuple tag="LAYD" type="c" size="19" value="Exposure time: 1/30" padding="1"/>
+      </tuple>
+      <tuple tag="LAYR" type="0" size="40" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="2" padding="2"/>
+        <tuple tag="LAYD" type="c" size="19" value="Exposure time: 1/15" padding="1"/>
+      </tuple>
+    </tuple>
+  </chunk>
+</metadata>

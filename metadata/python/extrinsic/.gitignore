@@ -1,0 +1,3 @@
+# Ignore files created for testing extrinsic metadata
+json/
+xml/

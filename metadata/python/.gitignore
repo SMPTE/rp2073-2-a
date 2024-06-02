@@ -1,0 +1,30 @@
+# Ignore the intermediate files for streaming test cases extracted from the GPMF sample files
+GPMF/
+
+# Ignore the documentation for Python scripts since it is easily regenerated
+docs/
+pdoc/
+
+# Ignore files created for testing
+test/
+
+# Ignore output from the Python coverage tool
+.coverage
+*,cover
+
+# Ignore the software metrics computed from the Python source code
+metrics.*
+
+# Ignore the files of metadata test case comparisons
+difftree.txt
+
+# Ignore the files listing verification results
+verify.txt
+verify-gpmf.txt
+
+# Ignore backups of the GPMF test cases
+GPMF.bak/
+GPMF.old/
+
+# Ignore the backup folders for test cases in XML format
+xml.bak/

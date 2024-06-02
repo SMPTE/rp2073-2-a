@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+   targetNamespace="https://www.vc5codec.org/xml/metadata"
+   xmlns:vc5="https://www.vc5codec.org/xml/metadata"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+  <xs:element name="metadata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tuple" type="vc5:TupleType" minOccurs="0" maxOccurs="unbounded" />
+        <xs:element name="chunk" type="vc5:TupleType" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="TupleType" mixed="true">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element name="chunk" type="vc5:TupleType" />
+      <xs:element name="tuple" type="vc5:TupleType" />
+    </xs:choice>
+	  <xs:attribute name="tag" type="xs:string" use="required" />
+	  <xs:attribute name="type" type="xs:string" />
+	  <xs:attribute name="size" type="xs:integer" />
+	  <xs:attribute name="count" type="xs:integer" />
+	  <xs:attribute name="padding" type="xs:integer" />
+	  <xs:attribute name="value" type="xs:string" />
+  </xs:complexType>
+
+</xs:schema>

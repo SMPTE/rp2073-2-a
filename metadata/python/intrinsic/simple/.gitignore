@@ -1,0 +1,6 @@
+# Ignore the intermediate files and test cases created for testing
+json/
+xml/
+
+# Ignore backup copies of test cases
+*.bak/

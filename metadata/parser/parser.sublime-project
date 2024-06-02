@@ -1,0 +1,26 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "../common"
+		}
+	],
+
+	"build_systems":
+	[
+		{
+			"name": "CMake",
+			"working_dir": "${project_path:${folder}}/build/cmake/build",
+			"shell_cmd": "cmake -G \"Visual Studio 15\" .."
+		},
+
+		{
+			"name": "Build",
+			"working_dir": "${project_path:${folder}}/build/cmake/build",
+			"shell_cmd": "cmake --build . -A Win32 --config Debug"			
+		}
+	]
+}

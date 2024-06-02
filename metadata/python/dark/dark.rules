@@ -1,0 +1,9 @@
+# Rules for generating the intermediate files used to create the dark metadata test cases
+
+# Rule for creating intermediate JSON metadata files with a FOURCC as the identification code
+$(JSON_DIR)/dark-fourcc.json: $(DATA_DIR)/dark-metadata.b64
+	$(GENERATE) -D $< -X $(FILESIZE) -o $@ >>$(LOGFILE)
+
+# Rule for creating intermediate JSON metadata files with a GUID as the identification code
+$(JSON_DIR)/dark-uuid.json: $(DATA_DIR)/dark-metadata.b64
+	$(GENERATE) -D $< -X $(FILESIZE) -G $(GUID) -o $@ >>$(LOGFILE)

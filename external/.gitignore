@@ -1,0 +1,19 @@
+# Ignore the packages cloned from GitHub
+argparse/
+libexpat/
+mxml/
+uthash/
+iotivity/
+ya_getopt/
+
+# Ignore old packages (after removing the packages from GitHub)
+#Archive/
+
+# Ignore backup files created by Notepad++
+*.bak
+
+# Ignore the script written to test cleaning the packages
+clean.sh
+
+# Ignore the script written to debug the Mini-XML build
+mxml.ps1

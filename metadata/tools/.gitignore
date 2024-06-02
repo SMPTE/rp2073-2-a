@@ -1,0 +1,14 @@
+# Ignore the executable files for the metadata tools
+dpxdump
+exrdump
+bintool
+klvdump
+
+# Ignore intermediate build products
+*.o
+
+# Ignore files used for testing
+test/
+
+# Ignore documentation created by Doxygen
+docs/

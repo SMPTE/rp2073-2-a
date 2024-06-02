@@ -1,0 +1,12 @@
+# Ignore files created by the decoder for testing
+test/
+
+# Ignore the working copy of the metadata test cases
+metadata/
+
+# Ignore files created for debugging
+*.txt
+test-simple-c23.sh
+
+# Ignore the persistent data files used by Python scripts
+*.pkl

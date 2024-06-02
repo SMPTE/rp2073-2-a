@@ -1,0 +1,9 @@
+*.byr4 filter=lfs diff=lfs merge=lfs -text
+*.vc5 filter=lfs diff=lfs merge=lfs -text
+*.rg48 filter=lfs diff=lfs merge=lfs -text
+*.b64a filter=lfs diff=lfs merge=lfs -text
+*.nv12 filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.mxf filter=lfs diff=lfs merge=lfs -text
+*.dpx filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text

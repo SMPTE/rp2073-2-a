@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <tuple tag="LAYR">
+    <tuple tag="LAYN" type="S" value="1" />
+    <tuple tag="LAYD" type="c">Stereo left image</tuple>
+  </tuple>
+  <tuple tag="LAYR">
+    <tuple tag="LAYN" type="S" value="2" />
+    <tuple tag="LAYD" type="c">Stereo right image</tuple>
+  </tuple>
+</metadata>

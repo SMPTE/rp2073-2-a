@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x4010" size="25">
+    <tuple tag="CFHD" type="E" size="92" padding="0">
+      <tuple tag="LOGC" type="P" size="84" padding="0">
+        <tuple tag="LOGt" type="f" size="4" count="1" value="1.0" padding="0"/>
+        <tuple tag="LOGa" type="f" size="4" count="1" value="1.0" padding="0"/>
+        <tuple tag="LOGb" type="f" size="4" count="1" value="1.0" padding="0"/>
+        <tuple tag="LOGc" type="f" size="4" count="1" value="1.0" padding="0"/>
+        <tuple tag="LOGd" type="f" size="4" count="1" value="1.0" padding="0"/>
+        <tuple tag="LOGe" type="f" size="4" count="1" value="1.0" padding="0"/>
+        <tuple tag="LOGf" type="f" size="4" count="1" value="1.0" padding="0"/>
+      </tuple>
+    </tuple>
+  </chunk>
+</metadata>

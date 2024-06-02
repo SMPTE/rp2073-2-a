@@ -1,0 +1,27 @@
+{
+   "combinations": [
+      {
+         "simple": [
+            "$(SIMPLE_JSON_DIR)/simple.json"
+         ]
+      },
+      {
+         "encoding": [
+            "$(NESTED_JSON_DIR)/encoding-FSLG.json",
+            "$(NESTED_JSON_DIR)/encoding-GAMA.json",
+            "$(NESTED_JSON_DIR)/encoding-HLGE.json",
+            "$(NESTED_JSON_DIR)/encoding-LINR.json",
+            "$(NESTED_JSON_DIR)/encoding-LOGA.json",
+            "$(NESTED_JSON_DIR)/encoding-LOGC.json",
+            "$(NESTED_JSON_DIR)/encoding-PQEC.json"
+         ]
+      },
+      {
+         "layers": [
+            "$(NESTED_JSON_DIR)/layers-hdr.json",
+            "$(NESTED_JSON_DIR)/layers-interlaced.json",
+            "$(NESTED_JSON_DIR)/layers-stereo.json"
+         ]
+      }
+   ]
+}

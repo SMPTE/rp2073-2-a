@@ -1,0 +1,5 @@
+cmd: make
+name: build
+targets:
+  clean:
+    cmd: make clean

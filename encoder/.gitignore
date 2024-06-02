@@ -1,0 +1,11 @@
+# Ignore files created by the encoder for testing
+test/
+
+# Ignore metadata files created by the encoder and dumper
+metadata/
+
+# Ignore the persistent data files used by Python scripts
+*.pkl
+
+# Ignore files generating for testing
+*.txt

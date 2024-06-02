@@ -1,0 +1,7 @@
+# Ignore the files created for testing dark metadata
+b64/
+json/
+xml/
+
+# Ignore the file information recorded for dark metadata (not used)
+fileinfo.json

@@ -1,0 +1,92 @@
+# Rules for generating the simple metadata test cases
+
+$(OUTPUT_DIR)/simple-c01.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c1 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c02.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c2 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c03.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c3 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c04.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c4 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c05.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c5 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c06.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c6 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c07.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c7 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c08.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c8 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c09.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c9 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c10.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c10 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c11.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c11 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c12.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c12 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c13.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c13 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c14.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c14 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c15.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c15 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c16.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c16 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c17.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c17 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c18.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c18 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c19.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c19 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c20.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c20 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c21.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c21 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c22.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c22 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c23.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c23 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c24.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c24 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-c25.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -c25 $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-rdc1.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -n 40 -r -d -c1 -S $(SEED) $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-rdc2.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -n 40 -r -d -c2 -S $(SEED) $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-rdc4.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -n 40 -r -d -c4 -S $(SEED) $< -o $@ >>$(LOGFILE)
+
+$(OUTPUT_DIR)/simple-rdc7.xml: $(INPUT_DIR)/simple.json
+	$(GENERATE) -n 40 -r -d -c7 -S $(SEED) $< -o $@ >>$(LOGFILE)
+
+$(INPUT_DIR)/simple.json: ./simple.csv
+	$(GENERATE) -C $< -o $@ >>$(LOGFILE)
+

@@ -1,0 +1,18 @@
+# Ignore metadata files created for testing
+json/
+xml/
+
+# Ignore files created while testing the complex metadata workflow
+complex-1.json
+complex-2.json
+complex-3.json
+random.json
+random.xml
+test.xml
+test3.xml
+
+# Ignore backup files created to preserve previous file versions (during testing)
+*.bak
+
+# Ignore backup copies of test cases
+*.bak/

@@ -1,0 +1,63 @@
+$(COMPLEX_JSON_DIR)/simple-FSLG-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-FSLG.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-FSLG-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-FSLG.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-FSLG-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-FSLG.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-GAMA-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-GAMA.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-GAMA-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-GAMA.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-GAMA-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-GAMA.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-HLGE-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-HLGE.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-HLGE-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-HLGE.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-HLGE-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-HLGE.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LINR-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LINR.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LINR-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LINR.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LINR-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LINR.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LOGA-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LOGA.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LOGA-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LOGA.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LOGA-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LOGA.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LOGC-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LOGC.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LOGC-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LOGC.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-LOGC-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-LOGC.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-PQEC-hdr.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-PQEC.json $(NESTED_JSON_DIR)/layers-hdr.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-PQEC-interlaced.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-PQEC.json $(NESTED_JSON_DIR)/layers-interlaced.json
+	$(GENERATE) -m -j $^ -o $@
+
+$(COMPLEX_JSON_DIR)/simple-PQEC-stereo.json: $(SIMPLE_JSON_DIR)/simple.json $(NESTED_JSON_DIR)/encoding-PQEC.json $(NESTED_JSON_DIR)/layers-stereo.json
+	$(GENERATE) -m -j $^ -o $@
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <tuple tag="SAMP" type="f" size="4" count="3">
+    <value>1.45</value>
+    <value>2.30</value>
+    <value>1.34</value>
+  </tuple>
+</metadata>

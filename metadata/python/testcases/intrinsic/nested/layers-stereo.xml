@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x4010" size="26">
+    <tuple tag="CFHD" type="E" size="96" padding="0">
+      <tuple tag="LAYR" type="0" size="40" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="0" padding="2"/>
+        <tuple tag="LAYD" type="c" size="17" value="Stereo pair: left" padding="3"/>
+      </tuple>
+      <tuple tag="LAYR" type="0" size="40" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="1" padding="2"/>
+        <tuple tag="LAYD" type="c" size="18" value="Stereo pair: right" padding="2"/>
+      </tuple>
+    </tuple>
+  </chunk>
+</metadata>

@@ -1,0 +1,356 @@
+{
+  "BlueSquare": {
+    "PATH": "https://github.com/adobe/XMP-Toolkit-SDK/tree/master/samples/testfiles/BlueSquare.jpg",
+    "FCDT": "2020-05-06T02:53:20.299985+00:00",
+    "FMDT": "2020-05-06T02:53:20.299985+00:00",
+    "UUID": "061c05893d6c4991bd847e6c79bc9d42"
+  },
+  "Image1": {
+    "PATH": "https://github.com/adobe/XMP-Toolkit-SDK/tree/master/samples/testfiles/Image1.jpg",
+    "FCDT": "2020-05-06T15:48:45.800329+00:00",
+    "FMDT": "2020-05-06T02:53:20.313869+00:00",
+    "UUID": "93363fc8ac894b3586e88ee60372922e"
+  },
+  "Image2": {
+    "PATH": "https://github.com/adobe/XMP-Toolkit-SDK/tree/master/samples/testfiles/Image2.jpg",
+    "FCDT": "2020-05-06T02:53:20.325981+00:00",
+    "FMDT": "2020-05-06T02:53:20.325981+00:00",
+    "UUID": "d2dd8495c9c64d67b749868a3dd445bc"
+  },
+  "hintergrund-musik": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/hintergrund-musik.dpx",
+    "FCDT": "2020-06-16T00:47:38.600024+00:00",
+    "FMDT": "2020-06-16T00:46:41.307794+00:00",
+    "UUID": "57fef673c6d4418790bdc1b1f02b78a7"
+  },
+  "ctest_10bpcfr_BGRA444p_lsbf_l2r_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpcfr_BGRA444p_lsbf_l2r_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.092249+00:00",
+    "FMDT": "2020-08-21T18:29:14+00:00",
+    "UUID": "7e2be1cbd3f248f288459f990cfd2b84"
+  },
+  "ctest_10bpcfr_RGB444_lsbf_l2r_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpcfr_RGB444_lsbf_l2r_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.138874+00:00",
+    "FMDT": "2020-08-21T18:29:14+00:00",
+    "UUID": "80e69be6f1ab43e1ac917f0f405a028e"
+  },
+  "ctest_10bpcfr_RGB444_msbf_l2r_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpcfr_RGB444_msbf_l2r_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.355092+00:00",
+    "FMDT": "2020-08-21T18:29:14+00:00",
+    "UUID": "6878be08e4bb448ab32468cbb40a7fd3"
+  },
+  "ctest_10bpcfr_RGBA444p_msbf_l2r_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpcfr_RGBA444p_msbf_l2r_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.370832+00:00",
+    "FMDT": "2020-08-21T18:29:14+00:00",
+    "UUID": "a49c9a052a8a45f5a46d61fed6e82124"
+  },
+  "ctest_10bpclr_ARGB444_lsbf_l2r_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_ARGB444_lsbf_l2r_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.664855+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "2f79b591796e4d1fb37876a6f1e0169a"
+  },
+  "ctest_10bpclr_ARGB444_msbf_l2r_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_ARGB444_msbf_l2r_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.728100+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "101c5c0ba7d64989bda53ad343b90983"
+  },
+  "ctest_10bpclr_ARGB444p_lsbf_l2r_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_ARGB444p_lsbf_l2r_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.748940+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "f09a708507784bcba734df7450790d80"
+  },
+  "ctest_10bpclr_ARGB444p_msbf_l2r_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_ARGB444p_msbf_l2r_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.763070+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "7de2b03d5b614d15b9d1815af130a750"
+  },
+  "ctest_10bpclr_BGRA444_lsbf_l2r_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_BGRA444_lsbf_l2r_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.827028+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "c304117f9c55406fb321270ff1120634"
+  },
+  "ctest_10bpclr_CYAYA420_msbf_r2l_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CYAYA420_msbf_r2l_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.840013+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "f0633a16fb4d42b3ae458d9c1dc5920e"
+  },
+  "ctest_10bpclr_CYY420_msbf_r2l_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CYY420_msbf_r2l_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.883180+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "9facd254546e49b4b43be1fc11638dcf"
+  },
+  "ctest_10bpclr_CbYACrYA422_lsbf_r2l_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CbYACrYA422_lsbf_r2l_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.914633+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "abee0baeaef542f9a6f0809ff0855c51"
+  },
+  "ctest_10bpclr_CbYACrYA422_msbf_r2l_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CbYACrYA422_msbf_r2l_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.928605+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "bca78d179c664cacae9d5f43e9847f38"
+  },
+  "ctest_10bpclr_CbYCr444_lsbf_r2l_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CbYCr444_lsbf_r2l_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:34.976354+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "6a150db6d355451aa299a9fb0e090457"
+  },
+  "ctest_10bpclr_CbYCrA444_lsbf_r2l_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CbYCrA444_lsbf_r2l_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:34.988060+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "e2c91962f1524e6cb0c2ebbcda654b49"
+  },
+  "ctest_10bpclr_CbYCrY422_lsbf_r2l_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CbYCrY422_lsbf_r2l_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:35.151717+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "2a792a44595a4f4d9fff453dfed55235"
+  },
+  "ctest_10bpclr_CbYCrY422_msbf_r2l_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_CbYCrY422_msbf_r2l_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:35.190905+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "71c574bb95194334adc2693c143a4efa"
+  },
+  "ctest_10bpclr_RGB444p_lsbf_l2r_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_RGB444p_lsbf_l2r_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:35.200572+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "0856f81ae558492b98f26a82dd35e61a"
+  },
+  "ctest_10bpclr_RGB444p_msbf_l2r_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_RGB444p_msbf_l2r_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:35.222050+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "afdb280853884b5492eb84d601c3fddb"
+  },
+  "ctest_10bpclr_RGBA444_msbf_l2r_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_RGBA444_msbf_l2r_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:35.296154+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "f1e36adfbb04478abaf837486bd766f8"
+  },
+  "ctest_10bpclr_YCbCr422p_lsbf_r2l_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_YCbCr422p_lsbf_r2l_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:35.341294+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "2099a26bdc5342fa8840e495610138ed"
+  },
+  "ctest_10bpclr_YCbCr422p_msbf_r2l_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_YCbCr422p_msbf_r2l_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:35.505989+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "ffd1a87670ee4167af5dd358511a6984"
+  },
+  "ctest_10bpclr_YCbCrA422p_lsbf_r2l_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_YCbCrA422p_lsbf_r2l_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:35.511575+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "ff386d27471f490f9107024017bf897c"
+  },
+  "ctest_10bpclr_YCbCrA422p_msbf_r2l_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_10bpclr_YCbCrA422p_msbf_r2l_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:35.519798+00:00",
+    "FMDT": "2020-08-21T18:29:15+00:00",
+    "UUID": "956ede4b8d124019ab96da8f4125c8c1"
+  },
+  "ctest_12bpcfr_BGR444_lsbf_r2l_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpcfr_BGR444_lsbf_r2l_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:35.948682+00:00",
+    "FMDT": "2020-08-21T18:29:16+00:00",
+    "UUID": "e0d9385c588b405bbeed4fc6082e15dc"
+  },
+  "ctest_12bpcfr_BGR444_msbf_r2l_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpcfr_BGR444_msbf_r2l_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:36.033731+00:00",
+    "FMDT": "2020-08-21T18:29:16+00:00",
+    "UUID": "a71ef8c0ff4b4c29b5c5e6a107035cc9"
+  },
+  "ctest_12bpcfr_BGRA444p_msbf_r2l_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpcfr_BGRA444p_msbf_r2l_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:36.120087+00:00",
+    "FMDT": "2020-08-21T18:29:16+00:00",
+    "UUID": "def3f74f86a247cfb16dc8b67ef01cf2"
+  },
+  "ctest_12bpcfr_RGBA444p_lsbf_l2r_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpcfr_RGBA444p_lsbf_l2r_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:36.191344+00:00",
+    "FMDT": "2020-08-21T18:29:16+00:00",
+    "UUID": "5db2314461f74263aebf3642284a974e"
+  },
+  "ctest_12bpclr_ABGR444_lsbf_l2r_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_ABGR444_lsbf_l2r_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:36.284127+00:00",
+    "FMDT": "2020-08-21T18:29:16+00:00",
+    "UUID": "c9fe45401f524e3799e1cefc7117a9bb"
+  },
+  "ctest_12bpclr_ABGR444_msbf_l2r_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_ABGR444_msbf_l2r_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:36.624095+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "1e60200358d2498ebde03db31144a62c"
+  },
+  "ctest_12bpclr_ABGR444p_lsbf_l2r_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_ABGR444p_lsbf_l2r_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:36.650270+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "dbc6d999bc6a4a58aca9931ec427ca4a"
+  },
+  "ctest_12bpclr_ABGR444p_msbf_l2r_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_ABGR444p_msbf_l2r_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:36.726209+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "a93ae6f294dc4d43a832cbb9a9568d7c"
+  },
+  "ctest_12bpclr_BGR444p_lsbf_r2l_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_BGR444p_lsbf_r2l_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:36.811368+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "64f7d23023fc4efe8bbc37a925de3ce7"
+  },
+  "ctest_12bpclr_BGR444p_msbf_r2l_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_BGR444p_msbf_r2l_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:36.831362+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "07c25d8a334d49a18434d7fae6cf41b9"
+  },
+  "ctest_12bpclr_BGRA444_msbf_r2l_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_BGRA444_msbf_r2l_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:37.266454+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "98b65329a98246f7b5a02ef666c8f3f1"
+  },
+  "ctest_12bpclr_CYAYA420_lsbf_r2l_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CYAYA420_lsbf_r2l_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:37.315719+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "072f680ae93d4685b32ddf7094dc109e"
+  },
+  "ctest_12bpclr_CYY420_lsbf_r2l_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CYY420_lsbf_r2l_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:37.433593+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "044eb43c6e814640a9d906059d0c4ef6"
+  },
+  "ctest_12bpclr_CbYACrYA422_msbf_l2r_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CbYACrYA422_msbf_l2r_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:37.507740+00:00",
+    "FMDT": "2020-08-21T18:29:17+00:00",
+    "UUID": "f202d8072a6c4509aabbac9f22e2a776"
+  },
+  "ctest_12bpclr_CbYCr444_lsbf_l2r_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CbYCr444_lsbf_l2r_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:37.852560+00:00",
+    "FMDT": "2020-08-21T18:29:18+00:00",
+    "UUID": "e7f92c2592ab462586ec09f001f8d472"
+  },
+  "ctest_12bpclr_CbYCr444_msbf_l2r_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CbYCr444_msbf_l2r_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:37.939861+00:00",
+    "FMDT": "2020-08-21T18:29:18+00:00",
+    "UUID": "b59f606bfff44a089c0cd05187623896"
+  },
+  "ctest_12bpclr_CbYCrA444_lsbf_l2r_mb_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CbYCrA444_lsbf_l2r_mb_rle.dpx",
+    "FCDT": "2020-08-21T19:02:38.020053+00:00",
+    "FMDT": "2020-08-21T18:29:18+00:00",
+    "UUID": "282de136e825486cbf97d4ebb4482c33"
+  },
+  "ctest_12bpclr_CbYCrA444_msbf_l2r_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CbYCrA444_msbf_l2r_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:38.044904+00:00",
+    "FMDT": "2020-08-21T18:29:18+00:00",
+    "UUID": "5f10dd48798848a3a7309faaa56c1ced"
+  },
+  "ctest_12bpclr_CbYCrY422_msbf_l2r_mb_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_CbYCrY422_msbf_l2r_mb_norle.dpx",
+    "FCDT": "2020-08-21T19:02:38.259763+00:00",
+    "FMDT": "2020-08-21T18:29:18+00:00",
+    "UUID": "b3078dc81bd94c23b72c9548cc526b2a"
+  },
+  "ctest_12bpclr_RGBA444_lsbf_l2r_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_RGBA444_lsbf_l2r_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:38.589632+00:00",
+    "FMDT": "2020-08-21T18:29:19+00:00",
+    "UUID": "534af28865534b509063cc3bec0c24fc"
+  },
+  "ctest_12bpclr_YCbCr420p_lsbf_r2l_ma_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_YCbCr420p_lsbf_r2l_ma_norle.dpx",
+    "FCDT": "2020-08-21T19:02:38.629342+00:00",
+    "FMDT": "2020-08-21T18:29:19+00:00",
+    "UUID": "e863a68fc7a444c296d089ed41ea09ca"
+  },
+  "ctest_12bpclr_YCbCr420p_msbf_r2l_packed_norle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_YCbCr420p_msbf_r2l_packed_norle.dpx",
+    "FCDT": "2020-08-21T19:02:38.838400+00:00",
+    "FMDT": "2020-08-21T18:29:19+00:00",
+    "UUID": "31310f1eb9f84530823755dc91d80d4e"
+  },
+  "ctest_12bpclr_YCbCrA420p_lsbf_r2l_ma_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_YCbCrA420p_lsbf_r2l_ma_rle.dpx",
+    "FCDT": "2020-08-21T19:02:38.844887+00:00",
+    "FMDT": "2020-08-21T18:29:19+00:00",
+    "UUID": "1a1ffa4ac6e549e8854e6812f65ea636"
+  },
+  "ctest_12bpclr_YCbCrA420p_msbf_r2l_packed_rle": {
+    "PATH": "https://github.com/SMPTE/smpte-31fs-hdrdpx/tree/master/examples/ctest_12bpclr_YCbCrA420p_msbf_r2l_packed_rle.dpx",
+    "FCDT": "2020-08-21T19:02:38.868701+00:00",
+    "FMDT": "2020-08-21T18:29:19+00:00",
+    "UUID": "d23b9007a2bf41e685f508f7a6eb5919"
+  },
+  "part15-j2c": {
+    "PATH": "https://github.com/SMPTE/smpte-10e-vc5/tree/master/metadata/media/mxf/part15-j2c.mxf",
+    "FCDT": "2020-08-26T22:17:59.665226+00:00",
+    "FMDT": "2020-08-26T20:36:44+00:00",
+    "UUID": "13353c8556564166b386fa78a343d343"
+  },
+  "yuv422_10b_p15": {
+    "PATH": "https://github.com/SMPTE/smpte-10e-vc5/tree/master/metadata/media/mxf/yuv422_10b_p15.mxf",
+    "FCDT": "2020-08-26T22:17:59.666135+00:00",
+    "FMDT": "2020-08-26T20:36:46+00:00",
+    "UUID": "0f65d839a9954e60b020656b149827ce"
+  },
+  "DigitalLAD.2048x1556": {
+    "PATH": "https://www.dropbox.com/sh/9xcfbespknayuft/AACYLWs5QGYGTym07gtGYaOLa/ACES/DigitalLAD.2048x1556.exr",
+    "FCDT": "2020-06-16T18:32:21.069571+00:00",
+    "FMDT": "2020-06-16T18:32:05.862263+00:00",
+    "UUID": "3ad27e0ee6e846d5a4dfd543c140c605"
+  },
+  "SonyF35.StillLife": {
+    "PATH": "https://www.dropbox.com/sh/9xcfbespknayuft/AACYLWs5QGYGTym07gtGYaOLa/ACES/SonyF35.StillLife.exr",
+    "FCDT": "2020-06-16T18:32:36.463557+00:00",
+    "FMDT": "2020-06-16T18:32:32.152894+00:00",
+    "UUID": "49b47a197c2e4f64bd9302e028be46aa"
+  },
+  "syntheticChart.01": {
+    "PATH": "https://www.dropbox.com/sh/9xcfbespknayuft/AACYLWs5QGYGTym07gtGYaOLa/ACES/syntheticChart.01.exr",
+    "FCDT": "2020-06-16T18:32:48.372177+00:00",
+    "FMDT": "2020-06-16T18:32:45.175549+00:00",
+    "UUID": "5d928068e1c04335b39c6ab3c501bcb0"
+  },
+  "imf_as02_DMCVT": {
+    "PATH": "https://github.com/SMPTE/smpte-10e-vc5/tree/master/metadata/media/dmcvt/imf_as02_DMCVT.mxf",
+    "FCDT": "2020-09-11T23:22:40.748818+00:00",
+    "FMDT": "2020-09-11T23:22:40.748596+00:00",
+    "UUID": "7edec978d1d347bf86e55091df9aa6c7"
+  },
+  "aletest-seq1": {
+    "PATH": "https://github.com/SMPTE/smpte-10e-vc5/tree/master/metadata/media/ale/aletest-seq1.ale",
+    "FCDT": "2020-09-12T22:07:57.804615+00:00",
+    "FMDT": "2020-09-12T21:58:55.523767+00:00",
+    "UUID": "929b1fbd24b5453d831268076b8fe4ab"
+  }
+}

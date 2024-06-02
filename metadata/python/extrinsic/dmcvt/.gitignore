@@ -1,0 +1,4 @@
+# Ignore the intermediate files created while generating DMCVT metadata test cases
+bin/
+b64/
+json/

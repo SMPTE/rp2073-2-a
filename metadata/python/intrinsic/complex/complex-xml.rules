@@ -1,0 +1,63 @@
+$(COMPLEX_XML_DIR)/simple-FSLG-hdr.xml: $(COMPLEX_JSON_DIR)/simple-FSLG-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-FSLG-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-FSLG-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-FSLG-stereo.xml: $(COMPLEX_JSON_DIR)/simple-FSLG-stereo.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-GAMA-hdr.xml: $(COMPLEX_JSON_DIR)/simple-GAMA-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-GAMA-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-GAMA-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-GAMA-stereo.xml: $(COMPLEX_JSON_DIR)/simple-GAMA-stereo.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-HLGE-hdr.xml: $(COMPLEX_JSON_DIR)/simple-HLGE-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-HLGE-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-HLGE-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-HLGE-stereo.xml: $(COMPLEX_JSON_DIR)/simple-HLGE-stereo.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LINR-hdr.xml: $(COMPLEX_JSON_DIR)/simple-LINR-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LINR-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-LINR-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LINR-stereo.xml: $(COMPLEX_JSON_DIR)/simple-LINR-stereo.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LOGA-hdr.xml: $(COMPLEX_JSON_DIR)/simple-LOGA-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LOGA-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-LOGA-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LOGA-stereo.xml: $(COMPLEX_JSON_DIR)/simple-LOGA-stereo.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LOGC-hdr.xml: $(COMPLEX_JSON_DIR)/simple-LOGC-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LOGC-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-LOGC-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-LOGC-stereo.xml: $(COMPLEX_JSON_DIR)/simple-LOGC-stereo.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-PQEC-hdr.xml: $(COMPLEX_JSON_DIR)/simple-PQEC-hdr.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-PQEC-interlaced.xml: $(COMPLEX_JSON_DIR)/simple-PQEC-interlaced.json
+	$(GENERATE) $^ -o $@
+
+$(COMPLEX_XML_DIR)/simple-PQEC-stereo.xml: $(COMPLEX_JSON_DIR)/simple-PQEC-stereo.json
+	$(GENERATE) $^ -o $@
+

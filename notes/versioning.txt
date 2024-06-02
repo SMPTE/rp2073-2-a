@@ -1,0 +1,44 @@
+# Version Numbering
+
+Notes on the scheme for automatically updating the version numbers in all source code and documentation.
+
+
+## Version Numbers
+
+Need to update the version numbers in the following locations:
+
+* Source code version in $(ROOT)/common/include/version.h
+* Update the project number in encoder.doxy
+* Update the project number in decoder.doxy
+* Update the version number in the build instructions
+* Update the version number in the release notes
+
+Need version number for the metadata tools?
+
+Need version number for the Python scripts?
+
+
+## Codec Source Code
+
+The version number is stored in the encoder data structure but otherwise does not seem to be used.
+
+
+Add command-line switch to the sample encoder, reference decoder, and other programs to print the version number:
+
+	encoder --version
+
+long-form only, no short switch, and add the version information to the output of the help option.
+
+
+## Tools
+
+### VC-5 Bitstream Info
+
+Write a tool `vc5info` for extracting information about the bitstream such as the information in the
+version chunk, image encoding format, image dimensions and pixel format.
+
+
+## Automatic Updates
+
+How to automatically update all version numbers?
+

@@ -1,0 +1,58 @@
+Catalog of testcases organized into subdirectories as specified in RP 2073-2 Annex C
+
+
+intrinsic/
+
+intrinsic-rdc1.xml
+intrinsic-rdc2.xml
+simple-c01.xml
+simple-c02.xml
+simple-c03.xml
+simple-c04.xml
+simple-c05.xml
+simple-c06.xml
+simple-c07.xml
+simple-c08.xml
+simple-c09.xml
+simple-c10.xml
+simple-c11.xml
+simple-c12.xml
+simple-c13.xml
+simple-c14.xml
+simple-c15.xml
+simple-c16.xml
+simple-c17.xml
+simple-c18.xml
+simple-c19.xml
+simple-c20.xml
+simple-c21.xml
+simple-c22.xml
+simple-c23.xml
+simple-c24.xml
+simple-c25.xml
+
+
+streaming/
+
+	hero5.xml
+	hero6.xml
+	hero7.xml
+	hero8.xml
+	karma.xml
+	hero6+ble.xml
+	fusion.xml
+	max-360mode.xml
+	max-heromode.xml
+
+
+extrinsic/
+
+
+dark/
+
+
+bitstreams/
+
+
+master/
+

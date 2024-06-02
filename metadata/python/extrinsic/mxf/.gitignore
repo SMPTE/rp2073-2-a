@@ -1,0 +1,11 @@
+# Ignore the text files and diagrams created from the MXF files using MXFLib
+*.txt
+*.dot
+*.svg
+
+# Ignore the auxiliary information for the MXF files
+filesize.csv
+
+# Ignore the intermediate metadata files
+b64/
+json/

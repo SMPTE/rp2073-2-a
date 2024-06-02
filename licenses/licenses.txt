@@ -1,0 +1,204 @@
+# Software Licenses
+
+Compilation of the software licenses used by any software in the VC-5 reference codec.
+
+
+## Mini-XML
+
+Mini-XML is used by the XML dumper to write metadata extracted from binary files produced by the XML parser
+in XML format.
+
+[Apache-2.0 License](https://github.com/michaelrsweet/mxml/blob/master/LICENSE)
+
+Mini-XML is installed on macOS using Homebrew (see below),
+otherwise the software is built from source code.
+
+
+## Expat
+
+Expat is used by the XML parser to parse the test cases in XML format.
+
+[Variant of the MIT license](https://www.wikidata.org/wiki/Q18526198)
+
+Expat is installed on macOS using Homebrew (see below),
+otherwise the software is built from source code.
+
+
+## Argp-standalone
+
+The Argp command-line parser is used by the XML parser and the XML dumper.
+
+[GitHub](https://github.com/tom42/argp-standalone)
+
+[LGPL-2.1 License](https://github.com/tom42/argp-standalone/blob/master/LICENSE)
+
+Consider replacing with [argtable3](https://github.com/argtable/argtable3) which has
+a FreeBSD style license.
+
+Note that `argp-standalone` is available from this [repository](https://github.com/BlockchainCommons/argp-standalone)
+which indicates that the code is from this [site](https://www.lysator.liu.se/~nisse/misc/) and inspection of the
+source code from that site says:
+
+"The GNU C Library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public License
+as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+
+This is the version of the software provided by Homebrew and appears to have a commercially acceptable license.
+But there are no build scripts for Windows.
+
+Maybe much better to switch to [argparse](https://github.com/cofyc/argparse) which has an MIT license
+and builds on Windows, creating a dynamic library -- avoiding any known license problems.
+
+Replaced Argp-standalone used in the XML parser and XML dumper with [argparse](https://github.com/cofyc/argparse)
+which has an MIT license.
+
+The reference decoder uses `argparse`.
+
+
+## Getopt
+
+The sample encoder and comparer use Getopt that appears to be included in macOS and other operating systems.
+
+On macOS, `getopt` and `getopt_long` appear to have a BSD license
+See the man pages for
+[getopt](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/getopt.3.html)
+and
+[getopt_long](https://developer.apple.com/library/archive/documentation/System/Conceptual/ManPages_iPhoneOS/man3/getopt_long.3.html#//apple_ref/doc/man/3/getopt_long).
+
+
+Microsoft has an implementation of `getopt` that was developed independently:
+<https://github.com/iotivity/iotivity/tree/master/resource/c_common/windows>
+
+[The IoTivity project](https://github.com/iotivity/iotivity)
+
+This version is licensed under the Apache License, Version 2.0, and appears to be plug-compatible with the
+way that the VC-5 software uses `getopt`, specifically: `getopt.h` is included in the source code and `getopt.c`
+is included directly in the build, not as a library.
+
+Cloned the IoTivity software (that includes `getopt.h` and `getopt.c`) into `$(ROOT)/external`.
+
+This version of `getopt` does not have `getopt_long`.
+
+Cloned [ya_getopt](https://github.com/kubo/ya_getopt.git) that has a BSD style license and includes
+both `getopt` and `getopt_long`.
+
+[ya_getopt](https://github.com/kubo/ya_getopt)
+
+
+## argtable2-13
+
+Argtable is the command-line argument parser based on `getopt` used by the sample encoder, reference decoder,
+converter and comparer utility programs on operating systems that do not provide `getopt` by default.
+
+[Argtable](http://argtable.sourceforge.net/)
+
+The make file builds do not use `argtable` but the library is included in CMake builds,
+indicating that the package is used on Windows.
+
+Argtable can installed on macOS using Homebrew (see below),
+otherwise the software is built from source code that is included in the VC-5 software distribution in
+the `$(ROOT)/external//argtable2-13` directory.
+
+The license obtained from the file `COPYING` included in the Argtable distribution is
+
+	GNU LIBRARY GENERAL PUBLIC LICENSE
+	Version 2, June 1991
+
+[LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)
+
+
+## Google
+
+No longer need to use software from Google for header files such as `stdint.h` that were missing
+from older versions of Visual Studio.
+
+
+## Homebrew
+
+Information about the software installed using Homebrew.
+
+
+### Expat
+
+```bash
+brew info expat
+expat: stable 2.2.10 (bottled), HEAD [keg-only]
+XML 1.0 parser
+https://libexpat.github.io/
+/usr/local/Cellar/expat/2.2.7 (17 files, 434KB)
+  Poured from bottle on 2019-09-08 at 15:35:56
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/expat.rb
+License: MIT
+==> Options
+--HEAD
+	Install HEAD version
+==> Caveats
+expat is keg-only, which means it was not symlinked into /usr/local,
+because macOS already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+==> Analytics
+install: 12,478 (30 days), 38,547 (90 days), 118,201 (365 days)
+install-on-request: 734 (30 days), 2,350 (90 days), 7,947 (365 days)
+build-error: 0 (30 days)
+```
+
+### Mini-XML
+
+```bash
+brew info libmxml
+libmxml: stable 3.2 (bottled), HEAD
+Mini-XML library
+https://michaelrsweet.github.io/mxml/
+/usr/local/Cellar/libmxml/3.2 (19 files, 1.6MB) *
+  Poured from bottle on 2021-01-26 at 13:02:15
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/libmxml.rb
+License: Apache-2.0
+==> Requirements
+Build: Xcode
+==> Options
+--HEAD
+	Install HEAD version
+==> Analytics
+install: 26 (30 days), 77 (90 days), 324 (365 days)
+install-on-request: 23 (30 days), 62 (90 days), 265 (365 days)
+build-error: 0 (30 days)
+```
+
+
+### argtable2-13
+
+```bash
+brew info argtable
+argtable: stable 2.13 (bottled)
+ANSI C library for parsing GNU-style command-line options
+https://argtable.sourceforge.io
+Not installed
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/argtable.rb
+==> Analytics
+install: 116 (30 days), 320 (90 days), 1,674 (365 days)
+install-on-request: 41 (30 days), 122 (90 days), 440 (365 days)
+build-error: 0 (30 days)
+```
+
+Note that the Homebrew install does not list a license.
+
+
+## Changes
+
+Write `CMakeLists.txt` in `$(ROOT)/external` to build and install the selected packages in `$(ROOT)/external/lib`
+with the header files in `$(ROOT)/external/include`.
+
+Need to clone the packages from GitHub before the build.
+
+How to write a cross-platform script to clone the packages?
+
+
+TODO: Can the `argparse` library be replaced? It seems to be only used on Windows.
+
+Does Windows now provide an implementation of `getopt` with a better license?
+
+Maybe it would be worth replacing `getopt` with `argparse` which is a better command-line argument parser.
+
+
+
+

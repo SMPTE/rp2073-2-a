@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x4010" size="7">
+    <tuple tag="CFHD" type="E" size="20" padding="0">
+      <tuple tag="LOGA" type="P" size="12" padding="0">
+        <tuple tag="LOGb" type="f" size="4" count="1" value="1.2" padding="0"/>
+      </tuple>
+    </tuple>
+  </chunk>
+</metadata>

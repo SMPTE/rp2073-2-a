@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <tuple tag="DARK" type="E">
+    <tuple tag="VENI" type="G" size="32" value="63041a95-c636-454b-810b-89ceb899445e" /> <tuple tag="VENS" type="c" size="10" value="Vendor XYZ" />
+    <tuple tag="VEND" type="B" size="51" padding="1">
+      QW4gZXhhbXBsZSBvZiByZXByZXNlbnRpbmcgZGFyayBtZXRhZGF0YSB1c2luZyBYTUwNCg==
+    </tuple>
+  </tuple>
+</metadata>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata xmlns="https://www.vc5codec.org/xml/metadata">
+  <chunk tag="0x4010" size="28">
+    <tuple tag="CFHD" type="E" size="104" padding="0">
+      <tuple tag="LAYR" type="0" size="44" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="0" padding="2"/>
+        <tuple tag="LAYD" type="c" size="21" value="Interlaced field: top" padding="3"/>
+      </tuple>
+      <tuple tag="LAYR" type="0" size="44" padding="0">
+        <tuple tag="LAYN" type="S" size="2" count="1" value="1" padding="2"/>
+        <tuple tag="LAYD" type="c" size="24" value="Interlaced field: bottom" padding="0"/>
+      </tuple>
+    </tuple>
+  </chunk>
+</metadata>

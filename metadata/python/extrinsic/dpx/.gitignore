@@ -1,0 +1,9 @@
+# Ignore files used for testing DPX extrinsic metadata
+*.b64
+
+# Ignore the auxiliary information for the DPX files
+filesize.csv
+
+# Ignore backup files
+json.bak/
+xml.bak/

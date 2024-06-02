@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{238F0B59-8E0C-42A9-9058-A12142B52199}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Encoder</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_ENCODER=1;_TIMING=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../include;../../common/include;../../tables;../../external/argtable2-13/src;../../external/google</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_ENCODER=1;_TIMING=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../include;../../common/include;../../tables;../../external/argtable2-13/src;../../external/google</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\src\allocator.c" />
+    <ClCompile Include="..\..\common\src\bandfile.c" />
+    <ClCompile Include="..\..\common\src\bayer.c" />
+    <ClCompile Include="..\..\common\src\codec.c" />
+    <ClCompile Include="..\..\common\src\codeset.c" />
+    <ClCompile Include="..\..\common\src\companding.c" />
+    <ClCompile Include="..\..\common\src\convert.c" />
+    <ClCompile Include="..\..\common\src\dpxfile.c" />
+    <ClCompile Include="..\..\common\src\fileinfo.c" />
+    <ClCompile Include="..\..\common\src\image.c" />
+    <ClCompile Include="..\..\common\src\interlaced.c" />
+    <ClCompile Include="..\..\common\src\arguments.c" />
+    <ClCompile Include="..\..\common\src\pixel.c" />
+    <ClCompile Include="..\..\common\src\stream.c" />
+    <ClCompile Include="..\..\common\src\syntax.c" />
+    <ClCompile Include="..\..\common\src\timer.c" />
+    <ClCompile Include="..\..\common\src\unpack.c" />
+    <ClCompile Include="..\..\common\src\utilities.c" />
+    <ClCompile Include="..\..\common\src\wavelet.c" />
+    <ClCompile Include="..\..\external\argtable2-13\src\getopt.c" />
+    <ClCompile Include="..\..\external\argtable2-13\src\getopt1.c" />
+    <ClCompile Include="..\src\bitstream.c" />
+    <ClCompile Include="..\src\codebooks.c" />
+    <ClCompile Include="..\src\encoder.c" />
+    <ClCompile Include="..\src\forward.c" />
+    <ClCompile Include="..\src\main.c" />
+    <ClCompile Include="..\src\metadata.c" />
+    <ClCompile Include="..\src\parameters.c" />
+    <ClCompile Include="..\src\parseargs.c" />
+    <ClCompile Include="..\src\quantize.c" />
+    <ClCompile Include="..\src\vlc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\include\allocator.h" />
+    <ClInclude Include="..\..\common\include\arguments.h" />
+    <ClInclude Include="..\..\common\include\bandfile.h" />
+    <ClInclude Include="..\..\common\include\codec.h" />
+    <ClInclude Include="..\..\common\include\codeset.h" />
+    <ClInclude Include="..\..\common\include\color.h" />
+    <ClInclude Include="..\..\common\include\companding.h" />
+    <ClInclude Include="..\..\common\include\config.h" />
+    <ClInclude Include="..\..\common\include\convert.h" />
+    <ClInclude Include="..\..\common\include\dpxfile.h" />
+    <ClInclude Include="..\..\common\include\error.h" />
+    <ClInclude Include="..\..\common\include\fileinfo.h" />
+    <ClInclude Include="..\..\common\include\image.h" />
+    <ClInclude Include="..\..\common\include\interlaced.h" />
+    <ClInclude Include="..\..\common\include\macros.h" />
+    <ClInclude Include="..\..\common\include\metadata.h" />
+    <ClInclude Include="..\..\common\include\pixel.h" />
+    <ClInclude Include="..\..\common\include\platform.h" />
+    <ClInclude Include="..\..\common\include\profile.h" />
+    <ClInclude Include="..\..\common\include\stream.h" />
+    <ClInclude Include="..\..\common\include\swap.h" />
+    <ClInclude Include="..\..\common\include\syntax.h" />
+    <ClInclude Include="..\..\common\include\timer.h" />
+    <ClInclude Include="..\..\common\include\types.h" />
+    <ClInclude Include="..\..\common\include\unpack.h" />
+    <ClInclude Include="..\..\common\include\utilities.h" />
+    <ClInclude Include="..\..\common\include\vlc.h" />
+    <ClInclude Include="..\..\common\include\wavelet.h" />
+    <ClInclude Include="..\include\bayer.h" />
+    <ClInclude Include="..\include\bitstream.h" />
+    <ClInclude Include="..\include\codebooks.h" />
+    <ClInclude Include="..\include\encoder.h" />
+    <ClInclude Include="..\include\forward.h" />
+    <ClInclude Include="..\include\headers.h" />
+    <ClInclude Include="..\include\parameters.h" />
+    <ClInclude Include="..\include\parseargs.h" />
+    <ClInclude Include="..\include\quality.h" />
+    <ClInclude Include="..\include\quantize.h" />
+    <ClInclude Include="..\include\version.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

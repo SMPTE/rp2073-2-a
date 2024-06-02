@@ -1,0 +1,45 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "../common"
+		}
+	],
+	"settings":
+	{
+		"SublimeAnarchyDebug":
+		{
+			"breakpoints":
+			[
+				{
+					"condition": null,
+					"enabled": true,
+					"file": "/Users/brian/Projects/SMPTE/VC-5/smpte-10e-vc5/metadata/dumper/src/dumper.c",
+					"ignore_count": 0,
+					"line": 1618
+				}
+			],
+			"debug":
+			{
+				"environment":
+				[
+				],
+				"executable": "${project_path}/build/linux/debug/dumper",
+				"params":
+				[
+					"-v",
+					"-o",
+					"output/streaming/xml/hero5.xml",
+					"../parser/binary/streaming/bin//hero5.bin"
+				],
+				"path":
+				[
+				],
+				"working_dir": "${project_path}/build/linux/debug/dumper"
+			}
+		}
+	}
+}

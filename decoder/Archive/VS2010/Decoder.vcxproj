@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{11F12B71-BF69-401B-B6E9-5B7488875DEF}</ProjectGuid>
+    <RootNamespace>Decoder</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\include;..\..\common\include;..\..\external\argtable2-13\src;..\..\external\google;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_DECODER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\include;..\..\common\include;..\..\external\argtable2-13\src;..\..\external\google;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_DECODER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\common\src\allocator.c" />
+    <ClCompile Include="..\..\common\src\bandfile.c" />
+    <ClCompile Include="..\..\common\src\convert.c" />
+    <ClCompile Include="..\..\common\src\pixel.c" />
+    <ClCompile Include="..\..\external\argtable2-13\src\getopt.c">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4100;4131</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4100;4131</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="..\..\external\argtable2-13\src\getopt1.c">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4100;4131</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4100;4131</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="..\src\bayer.c" />
+    <ClCompile Include="..\src\bitstream.c" />
+    <ClCompile Include="..\..\common\src\codec.c" />
+    <ClCompile Include="..\..\common\src\codeset.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\tables;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\tables;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="..\..\common\src\companding.c" />
+    <ClCompile Include="..\src\decoder.c" />
+    <ClCompile Include="..\src\dequantize.c" />
+    <ClCompile Include="..\..\common\src\dpxfile.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\common\src\fileinfo.c" />
+    <ClCompile Include="..\..\common\src\frame.c" />
+    <ClCompile Include="..\..\common\src\image.c" />
+    <ClCompile Include="..\..\common\src\interlaced.c" />
+    <ClCompile Include="..\src\inverse.c" />
+    <ClCompile Include="..\src\main.c" />
+    <ClCompile Include="..\src\parameters.c" />
+    <ClCompile Include="..\..\common\src\stream.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\src\parseargs.c" />
+    <ClCompile Include="..\src\syntax.c" />
+    <ClCompile Include="..\src\vlc.c" />
+    <ClCompile Include="..\src\wavelet.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\include\allocator.h" />
+    <ClInclude Include="..\..\common\include\bandfile.h" />
+    <ClInclude Include="..\include\bayer.h" />
+    <ClInclude Include="..\include\bitstream.h" />
+    <ClInclude Include="..\..\common\include\codec.h" />
+    <ClInclude Include="..\..\common\include\codeset.h" />
+    <ClInclude Include="..\..\common\include\color.h" />
+    <ClInclude Include="..\..\common\include\companding.h" />
+    <ClInclude Include="..\..\common\include\config.h" />
+    <ClInclude Include="..\include\convert.h" />
+    <ClInclude Include="..\include\decoder.h" />
+    <ClInclude Include="..\include\dequantize.h" />
+    <ClInclude Include="..\..\common\include\dpxfile.h" />
+    <ClInclude Include="..\..\common\include\error.h" />
+    <ClInclude Include="..\..\common\include\fileinfo.h" />
+    <ClInclude Include="..\..\common\include\frame.h" />
+    <ClInclude Include="..\include\frame.h" />
+    <ClInclude Include="..\include\headers.h" />
+    <ClInclude Include="..\..\common\include\image.h" />
+    <ClInclude Include="..\..\common\include\interlaced.h" />
+    <ClInclude Include="..\include\inverse.h" />
+    <ClInclude Include="..\..\common\include\macros.h" />
+    <ClInclude Include="..\..\common\include\metadata.h" />
+    <ClInclude Include="..\include\parameters.h" />
+    <ClInclude Include="..\..\common\include\pixel.h" />
+    <ClInclude Include="..\..\common\include\profile.h" />
+    <ClInclude Include="..\..\common\include\stream.h" />
+    <ClInclude Include="..\..\common\include\swap.h" />
+    <ClInclude Include="..\..\common\include\syntax.h" />
+    <ClInclude Include="..\..\common\include\types.h" />
+    <ClInclude Include="..\..\common\include\vlc.h" />
+    <ClInclude Include="..\..\common\include\wavelet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Tables\table17.inc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+# Ignore early files that were moved to the archive folder
+Archive/
+
+# Ignore Sublime Text workspaces (do not check into the software repository)
+*.sublime-workspace
+
+# Ignore intermediate build products
+*.o
+
+# Ignore binary metadata files created by the XML parser
+*.bin
+
+# Ignore metrics generated for the source code
+metrics.csv
+
+# Documentation generated from markdown
+*.html
+*.pdf
