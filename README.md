@@ -7,8 +7,8 @@ The VC-5 software project is maintained by the
 under
 [TC-10E](https://kws.smpte.org/communities/community-home?CommunityKey=f6ed3b1a-3f1c-4684-9202-3794e6836a58).
 
-The release notes are in [](./notes/release.md) and instructions for building and running this software
-are in [](./notes/install.md). The release notes and build instructions can be converted to PDF and HTML formats
+The release notes are in [release.md](./notes/release.md) and instructions for building and running this software
+are in [install.md](./notes/install.md). The release notes and build instructions can be converted to PDF and HTML formats
 by running
 ```bash
 make notes
